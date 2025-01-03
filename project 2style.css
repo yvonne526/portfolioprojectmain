@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family+poppins:wght@300;400;600;700;800;900&display+swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+
+    body {
+        font-family: 'Poppins',sans-serif;
+        line-height: 1.9;
+        background-color: #f4f4f4; 
+        padding: 0;
+    }
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbarr-2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    animation: nav-showww 1.5s linear forwards;
+    animation-delay: 1.1s;
+}
+
+@keyframes nav-showww {
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.navbarr-2 .Logooo {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: -10px;
+    
+}
+
+.navbarr-2 ul {
+    display: flex;
+}
+
+.navbarr-2 ul li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navbarr-2 ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    transition: 5s;}
+
+.navbarr-2 ul li:hover a,
+.navbarr-2 ul li.active a {
+    color: #7cf03d;
+}
+
+
+@media (max-width: 768px) {
+    .navbarr-3 {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .navbarr-3 ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .navbarr-3 ul li {
+        margin-left: 0;
+    }
+}
+
+    
+    .heading {
+        background-color: #1f242d; 
+        color: white;
+        padding: 100px;
+        border-radius: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .heading h1, .heading h2, .heading h3 {
+        margin-bottom: 10px;
+        color: #7cf03d;
+    }
+    
+    .heading ul, .heading ol {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .heading li {
+        margin-bottom: 10px;
+    }
+    
+
+    .final-outcomee {
+        background-color: #ffffff; 
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+    
+    .final-outcomee h2 {
+        margin-bottom: 15px;
+        color: #4CAF50;
+    }
+    
+    .final-outcomee a {
+        color: white;
+        background-color: #4CAF50;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+    .final-outcomeer a:hover {
+        background-color: #45a049; 
+    }
+    
+    
+    @media (max-width: 600px) {
+        body {
+            padding: 10px;
+        }
+        .navbarr-2{
+            padding: 15px;
+        }
+    
+        .titleee, .final-outcomee {
+            padding: 15px;
+        }
+    
+        .titleee h1, .titleee h2, .final-outcomee h2 {
+            font-size: 1.5em;
+        }
+    }
+    

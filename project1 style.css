@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family+poppins:wght@300;400;600;700;800;900&display+swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+
+    body {
+        font-family: 'Poppins',sans-serif;
+        line-height: 1.9;
+        background-color: #f4f4f4; 
+        padding: 0;
+    }
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    animation: nav-showw 1.5s linear forwards;
+    animation-delay: 1.1s;
+}
+
+@keyframes nav-showw {
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.navbar-2 .Logoo {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: -10px;
+    
+}
+
+.navbar-2 ul {
+    display: flex;
+}
+
+.navbar-2 ul li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navbar-2 ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    transition: 5s;}
+
+.navbar-2 ul li:hover a,
+.navbar-2 ul li.active a {
+    color: #7cf03d;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-2 {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .navbar-2 ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .navbar-2 ul li {
+        margin-left: 0;
+    }
+}
+
+    
+    .title {
+        background-color: #1f242d; 
+        color: white;
+        padding: 100px;
+        border-radius: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .title h1, .title h2, .title h3 {
+        margin-bottom: 10px;
+        color: #45a049;
+    }
+    
+    .title ul, .title ol {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .title li {
+        margin-bottom: 10px;
+    }
+    
+
+    .final-outcome {
+        background-color: #ffffff; 
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+    
+    .final-outcome h2 {
+        margin-bottom: 15px;
+        color: #4CAF50;
+    }
+    
+    .final-outcome a {
+        color: white;
+        background-color: #4CAF50;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+    .final-outcome a:hover {
+        background-color: #45a049; 
+    }
+    
+    
+    @media (max-width: 600px) {
+        body {
+            padding: 10px;
+        }
+    
+        .title, .final-outcome {
+            padding: 15px;
+        }
+    
+        .title h1, .title h2, .final-outcome h2 {
+            font-size: 1.5em;
+        }
+    }
+    
