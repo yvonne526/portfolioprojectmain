@@ -19,7 +19,7 @@ a{
 }
 .navbarr-2 {
     position: fixed;
-    left: 0;
+    left: -1%;
     top: 0;
     width: 100%;
     padding: 25px 9%;
@@ -115,6 +115,8 @@ a{
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         margin-top: 20px;
+        position: fixed;
+        left: -1%;
     }
     
     .final-outcomee h2 {

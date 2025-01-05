@@ -129,7 +129,6 @@ a{
     transition: 5s;
 }
 .Home-info .btn-social .social a:hover{
-    background: #7cf03d;
     color: #1f242d;
     box-shadow: 0 0 10px #1f242d;
 }
@@ -137,7 +136,7 @@ a{
     position: relative;
     width: 32vw;
     height: 32vw;
-    background: #000;
+    background: #1f242d;
     border-radius: 50%;
     padding: 5px;
     display: flex;
@@ -157,7 +156,7 @@ a{
 }
 @keyframes rotates{
     100%{
-        transform: rotate3d(360deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -168,10 +167,12 @@ a{
     background: #1f242d;
     border-radius: 50%;
     display: flex;
-    border: 1px solid #7cf03d;
+    border: 1px solid #1f242d;
     justify-content: center;
     z-index: 1;
     overflow: hidden;
+    
+      
 }
 .imge .imge-box .imge-item .imge .img {
     position: absolute;
