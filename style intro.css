@@ -98,16 +98,7 @@ a {
   display: flex;
   z-index: -1;
 }
-.circle-3 {
-    width: 450px;
-    height: 450px;
-    top: -50px;
-    left: 50px;
-    border-style: solid;
-    opacity: 0.1;
-    color: #7cf03d;
-  }
-  
+
 
 .profile-circle {
   --transition: all 0.3s cubic-beizer(0.4, 0, 0.2, 1);
@@ -140,3 +131,13 @@ a {
     transform: rotate(360deg);
   }
 }
+.circle-3 {
+    width: 450px;
+    height: 450px;
+    top: -50px;
+    left: 50px;
+    border-style: solid;
+    opacity: 0.1;
+    color: #7cf03d;
+  }
+  
