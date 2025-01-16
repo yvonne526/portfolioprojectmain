@@ -185,6 +185,13 @@ a {
 }
 .det{
   color: #fff;
-  margin: 10px 0 25px;
+  right: auto;
+}
+.cala{
+  color: #4CAF50;
+}
+.email{
+  color:#4CAF50;
+  justify-content: center;
 }
   
