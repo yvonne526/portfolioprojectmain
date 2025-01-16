@@ -111,21 +111,7 @@ a{
     transition: 5s;
 
 }
-.logto{
-    display: inline-block;
-    padding: 10px 30px;
-    background: #7cf03d;
-    border: 1px solid #000;
-    border-radius: 30px;
-    box-shadow: 0 0 9px #000;
-    font-size: 16px;
-    color: #1f242d;
-    font-weight: 600;
-    transition: 5s;
 
-
-
-}
 .btn:hover{
     background: transparent;
     color: #7cf03d;
@@ -148,38 +134,7 @@ a{
     color: #1f242d;
     box-shadow: 0 0 10px #1f242d;
 }
-.popup .overlay{
-    position: fixed;
-    top: 0px;
-    left: 8px;
-    width: 180vw;
-    height: 180vh;
-    z-index: 1;
-}
-.popup .content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    width: 450px;
-    height: 220px;
-    z-index: 2;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-}
-.popup.close-btn{
-    display: inline-flex;
-    padding: 8px;
-    border: 2px solid #7cf03d;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #7cf03d;
-    margin: 0 8px;
-    transition: 5s;
 
-
-}
 .imge .imge-box{
     position: relative;
     width: 32vw;
