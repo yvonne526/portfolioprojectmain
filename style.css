@@ -56,6 +56,11 @@ a{
     color:#7cf03d ;
 
 }
+@media (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        padding: 15px;
+    }}
 .Home{
     display: flex;
     align-items: center;

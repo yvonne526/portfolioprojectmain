@@ -70,7 +70,7 @@ a{
 
 @media (max-width: 768px) {
     .navbarr-3 {
-        flex-direction: column;
+        flex-direction: row;
         padding: 15px;
     }
 
