@@ -19,6 +19,7 @@ a {
   width: 100%;
   padding: 25px 9%;
 
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,6 +28,7 @@ a {
   opacity: 0;
   animation: nav-showw 1.5s linear forwards;
   animation-delay: 1.1s;
+  background-color: #1f242d;
 }
 @keyframes nav-showw {
   100% {
@@ -59,6 +61,7 @@ a {
   padding: 60px 9% 0;
   color: #fff;
   top: 250%;
+  padding-top: 100px;
 }
 .green {
   color: #7cf03d;
@@ -101,7 +104,7 @@ a {
   width: 100%;
   height: 100%;
   display: flex;
-  z-index: -1;
+  z-index: -10;
 }
 
 
@@ -203,13 +206,152 @@ a {
 }
 
   .final-outcomet {
-    background-color: #ffffff; 
+    background-color: #4CAF50; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
     position: fixed;
     left: -1%;
+    z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .navbar-1 {
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .navbar-1 ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .navbar-1 ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .project h1 {
+    font-size: 40px;
+  }
+
+  .project p {
+    font-size: 14px;
+  }
+
+  .profile-circle {
+    width: 280px;
+    height: 280px;
+  }
+
+  .circle-3 {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
   
+  .navbar-1 {
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .navbar-1 ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .navbar-1 ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  
+  .project h1 {
+    font-size: 40px;
+  }
+
+  .project p {
+    font-size: 14px;
+  }
+
+  
+  .profile-circle {
+    width: 280px;
+    height: 280px;
+  }
+
+  .circle-3 {
+    width: 300px;
+    height: 300px;
+  }
+
+  
+  .final-outcomet {
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .final-outcomet h2 {
+    font-size: 18px;
+  }
+
+  .green {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  body {
+    padding: 10px;
+  }
+
+  
+  .navbar-1 {
+    padding: 15px;
+    flex-direction: row;
+  }
+
+ 
+  .overview {
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .project h1 {
+    font-size: 30px;
+  }
+
+  .project p {
+    font-size: 12px;
+  }
+
+ 
+  .profile-circle {
+    width: 220px;
+    height: 220px;
+  }
+
+  .circle-3 {
+    width: 240px;
+    height: 240px;
+  }
+
+  
+  .final-outcomet {
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .final-outcomet h2 {
+    font-size: 18px;
+  }
+}

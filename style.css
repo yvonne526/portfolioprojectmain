@@ -22,12 +22,16 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    z-index: 1000;
     visibility: hidden;
     opacity: 0;
     animation: nav-show 1.5s linear forwards;
     animation-delay: 1.1s;
+    background-color: #1f242d;
 }
+
+
+
 @keyframes nav-show{
     100%{
         visibility: visible;
@@ -67,6 +71,7 @@ a{
     height: 100vh;
     padding: 60px 9% 0;
     color: #fff;
+    padding-top: 100px;
 }
 .change{
     color: #7cf03d;
@@ -212,4 +217,102 @@ a{
 }
 
 }
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 15px;
+        flex-direction: row;
+    }
+
+    .Home-info h1 {
+        font-size: 45px;
+    }
+
+    .Home-info h2 {
+        font-size: 28px;
+    }
+
+    .Home-info p {
+        font-size: 14px;
+    }
+
+    .imge .imge-box {
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .navbar ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .Home {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 5%;
+        padding-top: 100px;
+    }
+
+    .Home-info {
+        margin-bottom: 20px;
+    }
+
+    .imge .imge-box {
+        width: 50vw;
+        height: 50vw;
+        flex-direction: row;
+    }
+    .imge .imge-box .imge-item{
+        flex-direction: row;
+        width: 50vw;
+        height: 50vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .Logo {
+        font-size: 30px;
+    }
+
+    .Home-info h1 {
+        font-size: 35px;
+    }
+
+    .Home-info h2 {
+        font-size: 22px;
+    }
+
+    .Home-info p {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .imge .imge-box {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .Home-info .btn-social .social a {
+        font-size: 16px;
+        padding: 6px;
+    }
+}
+
 
